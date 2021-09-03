@@ -1,4 +1,5 @@
 #https://leetcode.com/problems/find-median-from-data-stream/submissions/
+# Hard
 # The trick with this one is to ALWAYS be push/popping instead of just pushing.
 # Pushpop lets us retain a sorted nature to both heaps.
 import heapq

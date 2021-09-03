@@ -1,4 +1,5 @@
 #https://leetcode.com/problems/majority-element-ii/
+# Medium
 # Also known as the Boyer-Moore majority algorithm
 # Runs in O(n) time and O(1) space to find x majority components
 # The important thing to recognize with this problem is that given we need elements that must be LARGER than N/3 there can only ever
