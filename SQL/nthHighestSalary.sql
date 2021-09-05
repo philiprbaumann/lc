@@ -6,7 +6,6 @@
                 SET varname = VALUE;
                     OR
                 DECLARE varname vartype DEFAULT value;
-        4. 
 */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
