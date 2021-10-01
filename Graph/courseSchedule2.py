@@ -3,6 +3,7 @@
 # Keep track of visited nodes via three states in an array. 
 # The graph is an adjacency hash. 
 # Usually the order is reversed in a stack, but the course/prereq ordering of this question means its in the proper order. 
+
 class Solution(object):
     def dfs(self, node):
         if self.visited[node] == -1: return False
