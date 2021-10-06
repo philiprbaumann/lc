@@ -1,4 +1,7 @@
 // https://leetcode.com/problems/valid-parentheses/
+// pop()        to remove last element
+// push()       to append to end of list
+// [-1]         doesn't work in list so has to be stack.length-1
 /**
  * @param {string} s
  * @return {boolean}
