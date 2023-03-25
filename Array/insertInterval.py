@@ -1,3 +1,4 @@
+# The trick here is thinking of it as three distinct segments which should be combined.
 #https://leetcode.com/problems/insert-interval/
 class Solution(object):
     def insert(self, intervals, newInterval):
