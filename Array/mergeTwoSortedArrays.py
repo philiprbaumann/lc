@@ -49,8 +49,8 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
         
-# This is the solution I wrote a day later:
-# Which is essentially the same thing. 
+# This is the solution I wrote a day later. I also wrote this solution one year later too. 
+# Trick is to think in reverse and avoid the swapping needed by starting from the beginning.
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         while (m > 0 and n > 0):

@@ -1,3 +1,4 @@
+# Memoization!!! 
 #https://leetcode.com/problems/climbing-stairs/
 class Solution(object):
     def climbStairs(self, n):
@@ -10,4 +11,19 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        
+
+# Technically I think this works, but it's slow and stack heavy. Performs a lot of repeat actions too.
+class Solution(object):
+    def climbStairs(self, n):
+        if n<1:
+            return 0
+        elif n == 1:
+            return 1
+        elif n == 2:
+            return 2
+        else:
+            return self.climbStairs(n-1) + self.climbStairs(n-2)
+        """
+        :type n: int
+        :rtype: int
+        """

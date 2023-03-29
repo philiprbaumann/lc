@@ -13,7 +13,7 @@ class Solution(object):
                 truckSize -= numBoxes
                 unitCount += numBoxes * boxUnits
             else:
-                unitCount += truckSize * boxUnits 
+                unitCount += truckSize * boxUnits # Remember, even if we can't fit _all_ units, we want to fit as many as we can.
                 break
         return unitCount 
     
